@@ -15,7 +15,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/invidiousAPI': {
-        target: 'https://inv.riverside.rocks',
+        target: 'https://yewtu.be',
         changeOrigin: true,
         rewrite: path => path.replace(/^\/invidiousAPI/, '')
       }
