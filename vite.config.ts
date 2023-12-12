@@ -15,7 +15,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/invidiousAPI': {
-        target: 'https://yewtu.be',
+        target: 'https://invidious.asir.dev',
         changeOrigin: true,
         rewrite: path => path.replace(/^\/invidiousAPI/, '')
       }
